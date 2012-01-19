@@ -14,3 +14,7 @@ set number                  " Show line numbers
 
 set wildmenu                " Better completion
 set wildmode=list:longest   " BASH style completion
+
+
+" Forced write as su
+cmap w!! w !sudo tee % >/dev/null
