@@ -1,0 +1,4 @@
+#!/bin/sh
+ln -nfs ~/bin/dotfiles/vim ~/.vim
+ln -nfs ~/bin/dotfiles/vimrc ~/.vimrc
+ln -nfs ~/bin/dotfiles/gvimrc ~/.gvimrc
