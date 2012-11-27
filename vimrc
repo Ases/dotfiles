@@ -4,6 +4,7 @@ filetype plugin indent on
 
 set nocompatible            " Disable vi-compatibility
 set encoding=utf-8          " Necessary to show unicode glyphs
+set laststatus=2            " Always show the statusline
 
 set expandtab
 set tabstop=4
@@ -15,6 +16,8 @@ set number                  " Show line numbers
 set wildmenu                " Better completion
 set wildmode=list:longest   " BASH style completion
 
-
 " Forced write as su
 cmap w!! w !sudo tee % >/dev/null
+
+"Powerline
+let g:Powerline_symbols = 'fancy'
